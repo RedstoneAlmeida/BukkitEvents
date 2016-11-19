@@ -10,6 +10,10 @@ use BE\event\InventoryClickEvent;
 use pocketmine\inventory\Inventory;
 use pocketmine\inventory\SimpleTransactionQueue;
 
+use pocketmine\inventory\ContainerInventory;
+use pocketmine\inventory\PlayerInventory;
+
+use pocketmine\Player;
 use pocketmine\Server;
 
 class Loader extends PluginBase implements Listener{
