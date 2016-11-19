@@ -8,7 +8,7 @@ Based in Bukkit Events(BUKKIT API) , transfer Bukkit events to PocketMine/Genisy
 ###### Use code:
 ```
 ## Class:
-use BE\event\InventoryClickEvent;
+use BE\inventory\event\InventoryClickEvent;
 
     ## Event to work
     public function onClick(InventoryClickEvent $event){
