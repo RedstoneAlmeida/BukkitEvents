@@ -6,7 +6,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 
 use pocketmine\event\inventory\InventoryTransactionEvent;
-use BE\event\InventoryClickEvent;
+use BE\inventory\event\InventoryClickEvent;
 use pocketmine\inventory\Inventory;
 use pocketmine\inventory\SimpleTransactionQueue;
 
