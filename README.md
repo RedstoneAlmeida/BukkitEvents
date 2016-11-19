@@ -1,5 +1,5 @@
 # BukkitEvents
-Based in Bukkit, transfer Bukkit events to PocketMine/Genisys/ClearSky/Imagicalmine and others
+Based in Bukkit Events(BUKKIT API) , transfer Bukkit events to PocketMine/Genisys/ClearSky/Imagicalmine and others
 
 ## Working Events
 - InventoryClickEvent( `use BE\inventory\event\InventoryClickEvent;` )
