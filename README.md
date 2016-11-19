@@ -6,7 +6,7 @@ Based in Bukkit Events(BUKKIT API) , transfer Bukkit events to PocketMine/Genisy
 
 ## How to Use?!
 ###### Use code:
-```
+```php
 ## Class:
 use BE\inventory\event\InventoryClickEvent;
 
@@ -17,6 +17,6 @@ use BE\inventory\event\InventoryClickEvent;
     }
 ```
 ###### Or
-```
+```php
 $this->getServer()->getPluginManager()->getPlugin("BE-BukkitEvents");
 ```
