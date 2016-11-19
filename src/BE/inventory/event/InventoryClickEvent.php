@@ -6,7 +6,7 @@
  * Time: 20:15
  */
 
-namespace BE\event;
+namespace BE\inventory\event;
 
 use pocketmine\event\Cancellable;
 use pocketmine\inventory\Inventory;
