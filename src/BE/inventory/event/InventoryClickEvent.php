@@ -42,6 +42,13 @@ class InventoryClickEvent extends InventoryEvent implements Cancellable{
     public function getWhoClicked(){
         return $this->who;
     }
+    
+    /**
+     * @return Player
+     */
+    public function getPlayer(){
+        return $this->who;
+    }
 
     /**
      * @return int
