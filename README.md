@@ -5,8 +5,10 @@ Based in Bukkit, transfer Bukkit events to PocketMine/Genisys/ClearSky/Imagicalm
 ## How to Use?!
 ###### Use code:
 ```
+## Class:
 use BE\event\InventoryClickEvent;
 
+    ## Event to work
     public function onClick(InventoryClickEvent $event){
 
 
