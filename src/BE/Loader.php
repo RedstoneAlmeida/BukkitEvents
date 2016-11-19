@@ -7,6 +7,10 @@ use pocketmine\event\Listener;
 
 use pocketmine\event\inventory\InventoryTransactionEvent;
 use BE\event\InventoryClickEvent;
+use pocketmine\inventory\Inventory;
+use pocketmine\inventory\SimpleTransactionQueue;
+
+use pocketmine\Server;
 
 class Loader extends PluginBase implements Listener{
 
