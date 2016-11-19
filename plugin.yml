@@ -1,0 +1,5 @@
+name: BE-BukkitEvents
+main: BE\Loader
+api: 2.0.0
+author: RedstoneAlmeida
+version: 1
