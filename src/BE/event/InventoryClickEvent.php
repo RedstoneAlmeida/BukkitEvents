@@ -6,7 +6,7 @@
  * Time: 20:15
  */
 
-namespace SlicePVP\Inventory\event;
+namespace BE\event;
 
 use pocketmine\event\Cancellable;
 use pocketmine\inventory\Inventory;
