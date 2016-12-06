@@ -35,7 +35,3 @@ class YOUCLASS extends PluginBase implements Listener{
     }
 }
 ```
-###### Or
-```php
-$this->getServer()->getPluginManager()->getPlugin("BE-BukkitEvents");
-```
