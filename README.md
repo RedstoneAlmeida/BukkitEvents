@@ -30,6 +30,7 @@ class YOUCLASS extends PluginBase implements Listener{
             return;
         }
         if($event->getSlot() == 1 or $event->getItem()->getId() == 1){
+            $event->setCancelled(true);
             $player->sendMessage("working");
         }
     }
