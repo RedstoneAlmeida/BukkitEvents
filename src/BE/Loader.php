@@ -34,6 +34,7 @@ class Loader extends PluginBase implements Listener{
         foreach(Server::getInstance()->getOnlinePlayers() as $player) {
             while (!$ev->getQueue()->getTransactions()->isEmpty()) {
                 $transaction = $ev->getQueue()->getTransactions()->dequeue();
+                // $this->getLogger()->info("clickEvent");
                 if ($transaction->getInventory() instanceof ContainerInventory || $transaction->getInventory() instanceof PlayerInventory) {
                     $player->getServer()->getPluginManager()->callEvent($event = new InventoryClickEvent($transaction->getInventory(), $player, $transaction->getSlot(), $transaction->getInventory()->getItem($transaction->getSlot())));
                     if ($event->isCancelled()) {
